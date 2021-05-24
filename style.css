@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Roboto:wght@400;700&display=swap');
+
+body{
+  background:black;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1,h2,h3, p.lead{
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+h1{
+  text-align: center;  
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+}
+
+h4{
+  font-size:0.8rem;
+}
+
+h5{
+  font-size:1rem;
+  color:silver;
+}
+
+#socialMedia,
+.fullContent,
+section,
+section.intro p {
+  position: relative
+}
+
+.fullContent,
+section.intro {
+  text-align: center
+}
+
+.moreGraphics ul li a,
+section.intro .cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+button {
+  border: 0;
+  border: 1px solid #000;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  user-select: none
+}
+
+button.current {
+  color: #fff;
+  background-color: #000
+}
+
+section.intro .cover {
+  width: 100%;
+  height: 40vw;
+  max-height: 740px;
+  background-image: url(../img/cover.jpg);
+  margin: 40px 0 20px
+}
+
+section.intro h1 {
+  font-size: 50px;
+  margin: 40px auto;
+  width: 100%;
+  line-height: 1.2em
+}
+
+section.intro p {
+  margin: 0 auto;
+  max-width: 425px;
+  text-align: left;
+  color: #8e8e8e;
+  font-family: Merriweather, serif;
+  line-height: 25px;
+  font-size: 19px;
+  font-weight: 400
+}
+
+section.intro p .autor,
+section.intro p.date {
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase
+}
+
+section.intro p.date {
+  font-size: .85em;
+  margin-bottom: 10px;
+  color: #989898
+}
+
+section.intro p .autor {
+  position: absolute;
+  left: -150px;
+  text-align: right;
+  font-size: 11px;
+  width: 100px;
+  transform-origin: 100% 0;
+  line-height: 1.1em;
+  color: #000;
+  text-decoration: none
+}
+
+section.intro a:hover {
+  opacity: .8
+}
+
+section.intro p .autor.au2 {
+  top: 121px
+}
+
+section.intro p .autor .pic {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-right: -10px
+}
+
+section.intro p .autor .pic img {
+  width: 50px
+}
+
+section.intro p .autor .name {
+  font-weight: 800
+}
+
+section.intro p .autor .title {
+  font-weight: 100
+}
